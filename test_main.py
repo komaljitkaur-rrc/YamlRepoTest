@@ -14,4 +14,4 @@ def test_hello_prints_expected_test(capsys):
 def test_bye_prints_expected_test(capsys):
     bye()
     captured = capsys.readouterr()
-    assert captured.out.strip() == "Morning!"
+    assert captured.out.strip() == "Goodbye!"
